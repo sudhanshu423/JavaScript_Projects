@@ -1,0 +1,227 @@
+body{
+  height: 800px;
+  width: 100%;
+  background-image: url("./images/background.jpg");
+  background-repeat: repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+
+
+.clockimg{
+  height: 50px;
+  width: 130px;
+  background-image: url("./images/clock_logo.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+position: relative;
+top: 30px;
+left: 100px;
+
+   
+}
+
+
+.container{
+  display: flex;
+  width: 100%;
+  height: 700px;
+  
+}
+
+
+
+.box1{
+  background-color: white;
+  height: 350px;
+  width: 460px;
+  border-radius: 15px;
+  margin-top: 50px;
+  margin-left: 150px;
+  
+}
+
+.first{
+   display: flex;
+   justify-content: space-around;
+   width: 100%;
+   padding-bottom: 35px;
+}
+
+.box1img{
+  height:40px;
+  width: 20px;
+  position: relative;
+  top: 15px;
+  left: 20px;
+}
+
+.box1text{
+
+  padding-left: 20px;
+  padding-top: 10px;
+  color: blueviolet;
+  font-weight: 600;
+  
+}
+
+.box1time{
+  
+ height: 20px;
+ width: 220px;
+ margin-top: 25px;
+ margin-left: 10px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+#box1time:hover{
+   border: 2px solid black;
+   
+}
+
+
+.second{
+  background-color:  white ;
+  opacity: 0.5;
+  color: black;
+  border-radius: 20px;
+  height: 35px;
+  font-size: 0.9rem;
+  text-align: center;
+   margin-left: 150px;
+}
+
+.third{
+  display: flex;
+  margin-top: 10px;
+   margin-left: 150px;
+}
+.thirdone{
+   color: white ;
+   background-image: linear-gradient(to right, blueviolet 30%, pink);
+   height: 40px;
+   width: 50%;
+    
+    border-radius: 10px;
+}
+
+.thirdone button{
+  font-size: 1.5rem;
+  font-weight: bold;
+ margin-top: 5px;
+ background-color: transparent;
+ border: none;
+ margin-left: 30px;
+}
+
+.thirdtwo{
+  height: 95px;
+  width: 50%;
+  background-color: white;
+  border-radius: 10px;
+  margin-left: 10px;
+  opacity: 0.5;
+  
+}
+
+
+.thirdspan{
+
+text-align: left;
+font-weight: bold;
+
+
+}
+
+
+
+.box2{
+  height: 120px;
+  background-color: white;
+  width: 450px;
+  margin-left: 220px;
+  margin-top: 55px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  
+}
+.box2 h2{
+  
+margin-left: 15px; 
+}
+
+.clock{
+  background-image: url("./images/timeline\ \(1\).svg");
+  height: 70px;
+  width: 60px;
+  margin-left: 20px;
+ 
+ 
+}
+
+#hour{
+  
+     margin-left: 22px;
+     font-size: 1.5rem;
+     color: rgb(72, 0, 140);
+    
+}
+
+.hrtext{
+  margin-left: 10px;
+  font-size: 1.3rem;
+  margin-top: 10px;
+  color: rgb(72, 0, 139);
+}
+
+.space{
+  font-size: 2.5rem;
+  margin-left: 20px;
+  color: rgb(70, 0, 136);
+  margin-top: -5px;
+}
+
+#min{
+      margin-left: 20px;
+     font-size: 1.5rem;
+     color: rgb(72, 0, 140);
+    
+}
+
+#sec{
+   margin-left: 20px;
+     font-size: 1.5rem;
+     color: rgb(72, 0, 140);
+
+}
+
+.box3{
+  height: 70px;
+  background-color: white;
+  width: 450px;
+  margin-left: 220px;
+  margin-top: 20px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  
+}
+
+.box3 h4{
+ 
+  text-align: center;
+  margin-left: 25px;
+  font-size: 1.4rem;
+  font-weight: bolder;
+  color: rgb(180, 131, 225);
+}
+
+.main2 img{
+  margin-left: 220px;
+  width: 450px;
+  margin-top: 20px;
+}
