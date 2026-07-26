@@ -1,0 +1,40 @@
+body{
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+  margin-top: 180px;
+}
+
+.colour{
+  height: 150px;
+  width: 150px;
+  border: 2px solid black;
+  }
+
+  .colour:hover{
+    border: 4px solid black;
+  }
+
+  .container{
+    display: flex;
+    justify-content:center;
+    align-content: center;
+    gap: 20px;
+    margin-top: 50px;
+  }
+
+#red{
+  background-color: red;
+}
+
+#green{
+  background-color: green;
+}
+
+#blue{
+  background-color: blue;
+}
+
+#yellow{
+  background-color: yellow;
+}
